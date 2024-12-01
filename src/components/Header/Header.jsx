@@ -1,7 +1,8 @@
 import './Header.css';
-import { Navigation } from '../Navigation/Navigation';
+// eslint-disable-next-line import/extensions, import/no-named-as-default
+import Navigation from '../Navigation/Navigation.jsx';
 
-export const Header = () => {
+const Header = () => {
   return (
     <header className="header">
       <h1 className="header__title">Site Name</h1>
@@ -9,3 +10,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;
